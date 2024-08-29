@@ -9,7 +9,6 @@
 - **Missed Prayers Tracker**: Keeps track of missed prayers and provides an interface to manage them.
 - **Automatic Timezone Adjustment**: Automatically adjusts prayer times based on the selected timezone and UTC offset.
 - **User-Friendly Interface**: Features a sleek and intuitive interface with easy navigation between settings, missed prayers, and about sections.
-- **Donation Option**: Includes a donation button to support the developer.
 
 ## How It Works
 
