@@ -1755,7 +1755,7 @@ Window {
                 spacing: 10
 
                 Text {
-                    text: "Version: Rel1"
+                    text: "Version: Rel2"
                     color: "white"
                     font.pixelSize: 16
                 }
@@ -1785,9 +1785,32 @@ Window {
                     onClicked: Qt.openUrlExternally("https://pay.cloudtips.ru/p/693e007a")  // Replace with your donation link
                 }
             }
+
+            Column {
+                anchors.bottom: parent.bottom
+                anchors.horizontalCenter: parent.horizontalCenter
+                spacing: 5
+
+                Text {
+                    text: "License:"
+                    color: "white"
+                    font.pixelSize: 16
+                }
+
+                Text {
+                    text: "GNU General Public License v3.0"
+                    color: "white"
+                    font.pixelSize: 12
+                }
+
+                Rectangle {
+                    width: parent.width
+                    height: 20  // Adjust the height as needed for the space
+                    color: "transparent"
+                }
+            }
         }
     }
-
 
     StackView {
         id: stackView
