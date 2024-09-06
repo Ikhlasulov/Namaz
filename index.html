@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="calculation.js"></script>
+  <title>Namaz</title>
+</head>
+<body>
+  <h1>Prayer Times</h1>
+  <div id="prayer-times">
+      <div class="prayer-time"><strong>Fajr:</strong> <span id="fajr"></span></div>
+      <div class="prayer-time"><strong>Sunrise:</strong> <span id="sunrise"></span></div>
+      <div class="prayer-time"><strong>Dhuhr:</strong> <span id="dhuhr"></span></div>
+      <div class="prayer-time"><strong>Asr:</strong> <span id="asr"></span></div>
+      <div class="prayer-time"><strong>Maghrib:</strong> <span id="maghrib"></span></div>
+      <div class="prayer-time"><strong>Isha:</strong> <span id="isha"></span></div>
+  </div>
+  <button id="settings">Settings</button>
+  <button id="missed">Missed</button>
+  <button id="about">About</button>
+  <script>
+    document.getElementById('settings').addEventListener('click', () => {
+      window.location.href = 'settings.html';
+    });
+    
+    document.getElementById('missed').addEventListener('click', () => {
+      window.location.href = 'missed.html';
+    });
+    
+    document.getElementById('about').addEventListener('click', () => {
+      window.location.href = 'about.html';
+    });
+
+    window.onload = fetchPrayerTimes;
+  </script>
+</body>
+</html>

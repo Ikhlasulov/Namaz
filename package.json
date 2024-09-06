@@ -1,0 +1,29 @@
+{
+  "name": "namaz",
+  "version": "1.0.0",
+  "description": "Islamic Prayer Manager",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ikhlasulov/Namaz.git"
+  },
+  "keywords": [
+    "Namaz"
+  ],
+  "author": "Ikhlasulov",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Ikhlasulov/Namaz/issues"
+  },
+  "homepage": "https://github.com/Ikhlasulov/Namaz#readme",
+  "devDependencies": {
+    "electron": "^32.0.1"
+  },
+  "dependencies": {
+    "moment-timezone": "^0.5.45",
+    "node-notifier": "^10.0.1"
+  }
+}
