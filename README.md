@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="icon.ico" alt="Namaz" />
+  <img src="icon.png" alt="Namaz" />
 </div>
 
 
 # Namaz
 
-**Namaz** is a beautifully designed and highly functional application built using QtQuick and QtQuick.Controls, aimed at helping Muslims keep track of their daily prayer times. This application provides a comprehensive solution for managing prayer schedules, timezones, and missed prayers, ensuring you never miss a prayer again.
+**Namaz** is a beautifully designed and highly functional application built using Node.js and Electron, aimed at helping Muslims keep track of their daily prayer times. This application provides a comprehensive solution for managing prayer schedules, timezones, and missed prayers, ensuring you never miss a prayer again.
 
 ## Key Features
 
@@ -20,10 +20,6 @@
 ### Main Page
 The main page displays the current time and the times for each prayer. It also includes buttons for navigating to the settings, about, and missed prayers pages.
 
-<div align="center">
-  <img src="readme/main.png" alt="Main Page" width="50%" height="50%" />
-</div>
-
 ### Settings Page
 The settings page allows users to customize their preferences:
 - **Clock Format**: Choose between 12-hour and 24-hour formats.
@@ -31,20 +27,8 @@ The settings page allows users to customize their preferences:
 - **City**: Choose a city within the selected timezone.
 - **Method**: Select the calculation method for prayer times.
 
-<div align="center">
-  <img src="readme/settings.png" alt="Settings Page" width="50%" height="50%" />
-</div>
-
 ### Missed Prayers Page
 The missed prayers page displays a list of missed prayers and allows users to increment or decrement the count for each prayer.
-
-<div align="center">
-  <img src="readme/missed.png" alt="Missed Prayers Page" width="50%" height="50%" />
-</div>
-
-## Installation
-
-To run the application, you need to have Qt installed on your system. Clone the repository and open the project in Qt Creator. Build and run the application to start using Namaz.
 
 ## Contributing
 
