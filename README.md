@@ -10,9 +10,8 @@
 ## Key Features
 
 - **Prayer Time Display**: Displays the current time and the times for Fajr, Sunrise, Dhuhr, Asr, Sunset, Maghrib, Isha, Imsak, Midnight, Firstthird, and Lastthird.
-- **Customizable Settings**: Allows users to customize the clock format (12-hour or 24-hour), select their timezone, city, and calculation method.
+- **Customizable Settings**: Allows users to select their city, and calculation method.
 - **Missed Prayers Tracker**: Keeps track of missed prayers and provides an interface to manage them.
-- **Automatic Timezone Adjustment**: Automatically adjusts prayer times based on the selected timezone and UTC offset.
 - **User-Friendly Interface**: Features a sleek and intuitive interface with easy navigation between settings, missed prayers, and about sections.
 
 ## How It Works
@@ -22,9 +21,7 @@ The main page displays the current time and the times for each prayer. It also i
 
 ### Settings Page
 The settings page allows users to customize their preferences:
-- **Clock Format**: Choose between 12-hour and 24-hour formats.
-- **Timezone**: Select from a list of predefined timezones.
-- **City**: Choose a city within the selected timezone.
+- **City**: Choose a city.
 - **Method**: Select the calculation method for prayer times.
 
 ### Missed Prayers Page
